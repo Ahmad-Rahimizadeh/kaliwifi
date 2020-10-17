@@ -1,0 +1,11 @@
+##copy and run these lines of code:
+
+sudo apt-get install firmware-linux firmware-linux-free firmware-linux-nonfree
+
+sudo apt-get install firmware-brcm80211 firmware-b43-installer firmware-b43legacy-installer broadcom-sta-dkms
+
+sudo apt-get install firmware-iwlwifi
+
+sudo modprobe -r iwlwifi
+
+sudo modprobe iwlwifi
